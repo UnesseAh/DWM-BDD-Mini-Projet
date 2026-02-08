@@ -1,4 +1,3 @@
--- Adding Clients
 INSERT INTO CLIENT (nom, prenom, email, adresse) VALUES 
 ('Benani', 'Karim', 'karim@gmail.com', '12 Av Hassan II, Casa'),
 ('Idrissi', 'Layla', 'layla@yahoo.fr', '45 Rue de Fes, Rabat'),
