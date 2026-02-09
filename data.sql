@@ -1,13 +1,13 @@
 INSERT INTO CLIENT (nom, prenom, email, adresse) VALUES 
-('Benani', 'Karim', 'karim@gmail.com', '12 Av Hassan II, Casa'),
-('Idrissi', 'Layla', 'layla@yahoo.fr', '45 Rue de Fes, Rabat'),
-('TechSolutions', 'Admin', 'contact@techsol.ma', 'Immeuble 4, Technopark');
+('AHASLA', 'Youness', 'youness@gmail.com', 'Casablanca'),
+('Idrissi', 'Layla', 'layla@yahoo.fr', 'Rabat'),
+('TechSolutions', 'Admin', 'contact@techsol.ma', 'Technopark');
 
 INSERT INTO PRODUIT (nom, prix, quantite_disponible, date_ajout, description) VALUES 
-('PC Portable Gamer', 12000.00, 10, '2025-01-01', 'High performance'), 
-('Souris Sans Fil', 150.00, 50, '2025-06-15', 'Ergonomic mouse'),
-('Ecran 4K Ultra', 3500.00, 5, CURDATE(), 'Nouvel Arrivage!'),
-('Clavier Mécanique', 800.00, 20, CURDATE(), 'RGB Backlit');
+('PC Portable', 12000.00, 10, '2025-01-01', 'High performance'), 
+('Souris', 150.00, 50, '2025-06-15', 'Good mouse'),
+('Ecran', 3500.00, 5, CURDATE(), 'New'),
+('Clavier', 800.00, 20, CURDATE(), 'RGB light');
 
 INSERT INTO PANIER (client_id, statut, date_validation) VALUES 
 (1, 'PAYE', NOW()),
